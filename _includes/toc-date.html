@@ -17,6 +17,10 @@
             </li>
 
             <li class="divider"></li>
+            <li class="chapter" data-level="1.1">
+                <a href="{{site.baseurl}}/blog">Blog</a>
+            </li>
+            <li class="divider"></li>
 
             {% assign reversed_posts = site.posts | reverse %}
 
@@ -24,13 +28,13 @@
             {% if page.url == post.url %}
             <li class="chapter active" data-level="2" data-path="{{site.baseurl}}{{post.url}}" style="font-weight:bold;">
                 <a href="{{site.baseurl}}{{post.url}}">
-                    {{ post.title | escape }}
+                    {{ forloop.index }}. {{ post.title | escape }}
                 </a>
             </li>
             {% else %}
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
                 <a href="{{site.baseurl}}{{post.url}}">
-                    {{ post.title | escape }}
+                    {{ forloop.index }}. {{ post.title | escape }}
                 </a>
             </li>
             {% endif %}
