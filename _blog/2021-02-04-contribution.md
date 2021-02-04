@@ -7,6 +7,11 @@ category: blog
 layout: blog
 ---
 
+I am glad to announce that our university is going to have its own CS110 textbook 
+which is open source and free for everybody. 
+The textbook covers everything that you need to know for CS110 and also 
+a little bit more.
+
 In recent years, the contribution has been one of the most important factors 
 in the growth of science in the world.
 
