@@ -23,10 +23,16 @@
                         {% endif %}
 
                         <p>
-                            <a href="https://github.com/UR-DataScience/cpp-book/edit/master/{{ page.path }}">
-                                Improve this page on github
+                            {% if page.layout == "blog" %}
+                            By
+                            <a href="{{ page.author_link }}" target="_blank">{{ page.author }}</a>
+                            on {{ page.date | date_to_long_string }} .
+                            {% endif %}
+                            <a href="https://github.com/UR-DataScience/cpp-book/edit/master/{{ page.path }}" target="_blank">
+                                Improve this page on Github
                                 <i class="fa fa-github"></i>
                             </a>
+                            <hr>
                         </p>
 
                         {{ content }}
