@@ -40,6 +40,7 @@ regenerate:       true
 plugins:
   - jemoji
   - jekyll-feed
+  - jekyll-mermaid
 
 collections:
   blog:
