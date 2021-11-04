@@ -9,8 +9,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'zakiyyahn.github.io'
-baseurl:          ''
+url:              '/cpp-book'
+baseurl:          'zakiyyahn.github.io'
 rss:              RSS
 
 # markdown render engine.
