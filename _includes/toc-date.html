@@ -14,11 +14,10 @@
             </li>
             <li class="divider"></li>
             
-            {% if page.url == "/index.html" or page.url == "/" %}
+            {% if page.url == "/index.html" or page.url == "/" or page.url == "/cpp-book/"%}
             <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
                 <a href="{{site.baseurl}}">
                     <img src= "/cpp-book/assets/img/nav/book_logo.png">
-                    {{ site.title | escape }}
                 </a>
            
                 {% else %}
