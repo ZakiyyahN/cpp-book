@@ -12,23 +12,29 @@
                     <img src="/cpp-book/assets/img/nav/data_science_logo.png"  alt="Data Science Laboratory - The hub of Data Science Research" > 
                 </a>
             </li>
-    
             <li class="divider"></li>
-
+            
             {% if page.url == "/index.html" or page.url == "/" %}
             <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
+                <a href="{{site.baseurl}}">
+                    <img src= "/cpp-book/assets/img/nav/book_logo.png">
+                    {{ site.title | escape }}
+                </a>
+           
                 {% else %}
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                 {% endif %}
                 <a href="{{site.baseurl}}">
+                    <img src= "/cpp-book/assets/img/nav/book_logo.png">
                     {{ site.title | escape }}
                 </a>
             </li>
 
             <li class="divider"></li>
+           
             <li class="chapter" data-level="1.1">
                 <a href="{{site.baseurl}}/blog">Blog</a>
-            </li>S
+            </li>
             <li class="divider"></li>
 
             {% assign reversed_posts = site.posts | reverse %}
@@ -50,8 +56,7 @@
             {% endfor %}
 
             <li class="divider"></li>
-
-           
+        
             <li>
                 <a href="https://github.com/ur-datascience/cpp-book/fork" target="blank" class="gitbook-link">
                     Fork and Help us to Improve this book
