@@ -8,7 +8,7 @@ layout: home
 ![University of Regina Logo](assets/img/book/cover/objective.png)
 ![University of Regina Logo](assets/img/book/cover/motivation.png)
 ![Book contents](assets/img/book/cover/contents.png)
-
+ <img src="assets/img/book/cover/contents.png" id="img_border">
 
 
 ### A big thanks to Dr. Alireza Manashty for initiating this Open Textbook Project.
