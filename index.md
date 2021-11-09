@@ -2,8 +2,6 @@
 layout: home
 ---
 
-
-# Introduction to Programming & Problem Solving with C++
 ![University of Regina Logo](assets/img/book/cover/URLogo.png)
 ![University of Regina Logo](assets/img/book/cover/objective.png)
 ![University of Regina Logo](assets/img/book/cover/motivation.png)
